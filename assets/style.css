@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.nav-bar {
+  float :left;
+  position: relative;
+}
+
+.navbar-nav {
+  padding: 10px 20px;
+}
+
+.navbar-nav a {
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+
+.shopping-cart {
+  float: right;
+  position: absolute;
+  top: 10px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.shopping-cart i {
+  font-size: 20px;
+  color: green;
+
+}
+
+.products {
+  float: left;
+}
+
+#products,#about,#contact {
+  display: none;
+}
+
+#home {
+  background-color: lightyellow;
+  height: 1000px;
+}
+#home h1 {
+  text-align: center;
+  color: pink;
+  padding-top: 40px;
+  font-style: italic;
+}
+
+ .btn-information .btn-info2 {
+   padding: 30px;
+   background-color: lightpink;
+   color: lightyellow;
+   width: 300px;
+   margin-left: 65px;
+   margin-top: 20px;
+   border: none;
+   display: inline;
+   border-radius: 10px;
+ }
+
+.btn-information .btn-info2:focus{
+  outline: none!important;
+}
+
+.btn-information .btn-info2 i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.btn-information {
+  position: relative;
+}
+.home-img:before {
+  background-image: url("pictures/whomade.png");
+  width: 100%;
+  height: 1000px;
+  background-repeat:no-repeat;
+  content: "";
+  top: 30%;
+  left: 15%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.1;
+}
+
+#about {
+  background-color: lightgreen;
+  height: 1200px;
+}
+
+#about h2,p{
+  text-align: center;
+  color: white;
+}
+
+#about p {
+  font-size: 24px;
+}
+
+#about img {
+  margin: 20px 20px;
+}
+
+.product-item {
+  margin-top: 30px;
+  padding-left:50px;
+
+}
+.top-products.product-item img,span,button {
+  display: block;
+}
+
+.top-products span{
+  text-transform: uppercase;
+  color: pink;
+  font-weight: bold;
+  padding: 10px;
+}
+.top-products .add-to-cart {
+  background-color: #fff;
+  border: none;
+  color: pink;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top-products .add-to-cart:focus {
+  outline: none;
+}
+.top-products h1 {
+  color: pink;
+  text-transform: capitalize;
+  font-style: italic;
+  text-align: center;
+}
+#contact {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+
+}
+#contact h3 {
+  font-style: bold;
+
+}
+
+#contact span b {
+  font-size: 22px;
+}
+
+#contact .my-google-map {
+  text-align: center;
+}
+
+#map {
+  width: 60%;
+  height: 400px;
+  background-color: grey;
+  float: right;
+  top: -100px;
+}
+
+#products {
+  background-color: lightpink;
+}
+
+#products h2 {
+  color: purple;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#products img {
+  width: 200px;
+  height: 300px;
+}
+
+#products span {
+  text-transform: uppercase;
+  color: purple;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#products .add-to-cart {
+  background-color: #fff;
+  border: none;
+  color: purple;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#products .products-catalog {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+#products .discount {
+  border: 2px solid purple;
+  border-radius: 50%;
+  width: 49px;
+  background-color: white;
+  position: absolute;
+  top: -10px;
+  right: 133px;
+  z-index: 1;
+}
+
+#products .first-img {
+  position: relative;
+}
+
+#products .wish-list {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  z-index: 1;
+}

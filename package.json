@@ -1,0 +1,16 @@
+{
+  "name": "shop-online-example",
+  "version": "0.0.1",
+  "description": "Simple shop online example",
+  "author": "Ioana Dubau <ioanavirginia22@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioanavirginia22/shop-online-example"
+  },
+  "dependencies": {
+    "jquery": "3.2.1",
+    "bootstrap":"3.3.7",
+    "fontawesome":"4.7.0"
+  },
+  "license": "MIT"
+}
